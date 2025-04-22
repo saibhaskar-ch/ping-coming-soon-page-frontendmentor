@@ -46,3 +46,5 @@ $submitButton.addEventListener("click", () => {
   alert("Submitted the email");
   $inputEmail.focus();
 });
+
+$inputEmail.focus();
