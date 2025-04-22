@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-libre: "Libre Franklin", sans-serif;
+}
+
+@layer base {
+  *:focus-within {
+    @apply outline-black;
+  }
+
+  body > div {
+    @apply min-h-screen font-libre;
+  }
+
+  body > div > div {
+    @apply min-h-[85vh];
+  }
+
+  footer {
+    @apply min-h-[15vh];
+  }
+}
